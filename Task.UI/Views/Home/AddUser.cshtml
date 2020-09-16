@@ -1,0 +1,84 @@
+﻿@model UserViewModel
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <form asp-action="AddUser">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label asp-for="FirstName" class="control-label"></label>
+                        <input asp-for="FirstName"  class="form-control"/>
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="MiddleName" class="control-label"></label>
+                        <input asp-for="MiddleName"  class="form-control"/>
+                        <span asp-validation-for="MiddleName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label asp-for="LastName" class="control-label"></label>
+                        <input asp-for="LastName"  class="form-control"/>
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="MobileNumber" class="control-label"></label>
+                        <input  type="tel" asp-for="MobileNumber" class="form-control" />
+                        <span asp-validation-for="MobileNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" type="email"/>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <label asp-for="BirthDate" class="control-label"></label>
+                        <input type="datetime-local" asp-for="BirthDate" class="form-control" >
+                        <span asp-validation-for="BirthDate" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <label asp-for="Governrate" class="control-label"></label>
+                        @Html.DropDownList("Governrate", (SelectList)ViewBag.Cityies, "Select Governrate", htmlAttributes: new { @class = "form-control"})
+                        <span asp-validation-for="Governrate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label asp-for="Street" class="control-label"></label>
+                        <input asp-for="Street" class="form-control"/>
+                        <span asp-validation-for="Street" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-2">
+                        <label asp-for="BulDingNumber" class="control-label"></label>
+                        <input type="number" min="1" asp-for="BulDingNumber" class="form-control" />
+                        <span asp-validation-for="BulDingNumber" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-2">
+                        <label asp-for="FlatNumber" class="control-label"></label>
+                        <input type="number" min="1" asp-for="FlatNumber" class="form-control" />
+                        <span asp-validation-for="FlatNumber" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-2">
+                        <label asp-for="City" class="control-label"></label>
+                        @Html.DropDownList("City", (SelectList)ViewBag.RegionssList, "Select City", htmlAttributes: new { @class = "form-control" })
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary px-4 float-right">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

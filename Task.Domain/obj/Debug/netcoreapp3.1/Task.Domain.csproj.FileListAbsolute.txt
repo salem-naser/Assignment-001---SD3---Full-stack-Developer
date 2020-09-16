@@ -1,0 +1,12 @@
+C:\Users\SALEM\Desktop\3S\Task.Domain\bin\Debug\netcoreapp3.1\Task.Domain.deps.json
+C:\Users\SALEM\Desktop\3S\Task.Domain\bin\Debug\netcoreapp3.1\Task.Domain.dll
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.AssemblyInfoInputs.cache
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.AssemblyInfo.cs
+C:\Users\SALEM\Desktop\3S\Task.Domain\bin\Debug\netcoreapp3.1\Task.Domain.runtimeconfig.json
+C:\Users\SALEM\Desktop\3S\Task.Domain\bin\Debug\netcoreapp3.1\Task.Domain.runtimeconfig.dev.json
+C:\Users\SALEM\Desktop\3S\Task.Domain\bin\Debug\netcoreapp3.1\Task.Domain.pdb
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.dll
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.pdb
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.genruntimeconfig.cache
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SALEM\Desktop\3S\Task.Domain\obj\Debug\netcoreapp3.1\Task.Domain.csprojAssemblyReference.cache

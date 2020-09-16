@@ -1,0 +1,14 @@
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Service.deps.json
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Service.dll
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Service.pdb
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Domain.dll
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Repo.dll
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Repo.pdb
+C:\Users\SALEM\Desktop\3S\Task.Service\bin\Debug\netcoreapp3.1\Task.Domain.pdb
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.csprojAssemblyReference.cache
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.AssemblyInfoInputs.cache
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.AssemblyInfo.cs
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.csproj.CoreCompileInputs.cache
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.csproj.CopyComplete
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.dll
+C:\Users\SALEM\Desktop\3S\Task.Service\obj\Debug\netcoreapp3.1\Task.Service.pdb
